@@ -1,46 +1,30 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.12)
 
-include($ENV{PICO_SDK_PATH}/pico_sdk_init.cmake)
+# Pull in SDK (must be before project)
+include(pico_sdk_import.cmake)
+
+project(LoRa-RP2040 C CXX ASM)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+
+set(PICO_LORA_PATH ${PROJECT_SOURCE_DIR})
+
+# Initialize the SDK
+set(PICO_CXX_ENABLE_EXCEPTIONS 1)
 pico_sdk_init()
 
-project(RotschyRover_Main)
+include(example_auto_set_url.cmake)
 
-# add_subdirectory(./src)
 
-include_directories(RotschyRover_Main
-#     ${PICO_SDK_PATH}/src/rp2_common/hardware_i2c/include/
-#     ${PICO_SDK_PATH}/src/rp2_common/pico_multicore/include/
-    # ${PICO_SDK_PATH}/src/common/pico_util/include/
-)
 
-add_executable(RotschyRover_Main
-    # main
-    ./src/main.cpp
+add_subdirectory(src)
 
-    # local libs
-    # ./src/motor/Motor.cpp
-    # ./src/I2C/I2C.cpp
-    # ./src/accelerometer/mpu9250.cpp
-    # ./src/motor/MotorDriver.cpp
-    # ./src/queue/wrapper.cpp
-    # ./src/math/math.cpp
+# Hardware-specific examples in subdirectories:
+add_subdirectory(examples)
 
-    # HACKY FIX FOR SOMETHING?
-    # # include directories need executable paths as well
-    # ${PICO_SDK_PATH}/src/rp2_common/hardware_i2c/i2c.c
-    # ${PICO_SDK_PATH}/src/rp2_common/pico_multicore/multicore.c
-    # ${PICO_SDK_PATH}/src/common/pico_util/queue.c
-    )
+add_compile_options(-Wall
+        -Wno-format          # int != int32_t as far as the compiler is concerned because gcc has int32_t as long int
+        -Wno-unused-function # we have some for the docs that aren't called
+        -Wno-maybe-uninitialized
+        )
 
-# pull in common dependencies
-target_link_libraries(RotschyRover_Main
-    pico_stdlib
-    # hardware_i2c
-    # pico_multicore
-)
-
-pico_enable_stdio_usb(RotschyRover_Main 1)
-pico_enable_stdio_uart(RotschyRover_Main 0)
-
-# create map/bin/hex file etc.
-pico_add_extra_outputs(RotschyRover_Main)

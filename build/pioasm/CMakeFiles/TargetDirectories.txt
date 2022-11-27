@@ -1,0 +1,3 @@
+C:/Users/henrik.pedersen/pico/pico-lora/build/pioasm/CMakeFiles/pioasm.dir
+C:/Users/henrik.pedersen/pico/pico-lora/build/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/henrik.pedersen/pico/pico-lora/build/pioasm/CMakeFiles/rebuild_cache.dir
