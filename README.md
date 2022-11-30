@@ -1,3 +1,5 @@
+## PLEASE GO TO THIS REPOSITORY - I DIDN'T FORK IT LIKE I SHOULD HAVE: https://github.com/akshayabali/pico-lora
+
 # pico-lora
 LoRa communication library for Raspberry Pi RP2040 Microcontroller. 
 
