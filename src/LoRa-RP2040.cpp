@@ -126,7 +126,8 @@ int LoRaClass::begin(long frequency)
 
   // set frequency
   setFrequency(frequency);
-  // TODO turn off freq-hop
+  
+  writeRegister(0x24, 0x00);
 
   // set base addresses
   writeRegister(REG_FIFO_TX_BASE_ADDR, 0);
@@ -198,7 +199,6 @@ int LoRaClass::endPacket(bool async)
     writeRegister(REG_IRQ_FLAGS, IRQ_TX_DONE_MASK);
   }
 
-  setRfSwitchState(0, 0);
   return 1;
 }
 

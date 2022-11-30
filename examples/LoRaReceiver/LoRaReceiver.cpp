@@ -33,7 +33,6 @@ int main()
 
     while (1)
     {
-        LoRa.receive();
         if (LoRa.available())
         {
             // received a packet

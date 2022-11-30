@@ -34,7 +34,7 @@ int main() {
 		printf("end/send\n");
 
 		counter++;
-		sleep_ms(5000);
+		sleep_ms(1000);
 		
   }
   return 0;
