@@ -126,6 +126,7 @@ int LoRaClass::begin(long frequency)
 
   // set frequency
   setFrequency(frequency);
+  // TODO turn off freq-hop
 
   // set base addresses
   writeRegister(REG_FIFO_TX_BASE_ADDR, 0);
@@ -180,7 +181,8 @@ int LoRaClass::beginPacket(int implicitHeader)
 
 int LoRaClass::endPacket(bool async)
 {
-  
+  setRfSwitchState(0, 1);
+
   if ((async) && (_onTxDone))
       writeRegister(REG_DIO_MAPPING_1, 0x40); // DIO0 => TXDONE
 
@@ -196,6 +198,7 @@ int LoRaClass::endPacket(bool async)
     writeRegister(REG_IRQ_FLAGS, IRQ_TX_DONE_MASK);
   }
 
+  setRfSwitchState(0, 0);
   return 1;
 }
 
@@ -295,13 +298,11 @@ int LoRaClass::rssi()
 
 size_t LoRaClass::write(uint8_t byte)
 {
-  this->setRfSwitchState(0, 1);
   return write(&byte, sizeof(byte));
 }
 
 size_t LoRaClass::write(const uint8_t *buffer, size_t size)
 {
-  this->setRfSwitchState(0, 1);
   int currentLength = readRegister(REG_PAYLOAD_LENGTH);
 
   // check size
@@ -322,11 +323,13 @@ size_t LoRaClass::write(const uint8_t *buffer, size_t size)
 
 int LoRaClass::available()
 {
+  setRfSwitchState(1, 0);
   return (readRegister(REG_RX_NB_BYTES) - _packetIndex);
 }
 
 int LoRaClass::read()
 {
+  setRfSwitchState(1, 0);
   if (!available()) {
     return -1;
   }
@@ -338,6 +341,7 @@ int LoRaClass::read()
 
 int LoRaClass::peek()
 {
+  setRfSwitchState(1, 0);
   if (!available()) {
     return -1;
   }
@@ -382,8 +386,7 @@ void LoRaClass::onTxDone(void(*callback)())
 
 void LoRaClass::receive(int size)
 {
-
-  this->setRfSwitchState(1, 0);
+  setRfSwitchState(1, 0);
   writeRegister(REG_DIO_MAPPING_1, 0x00); // DIO0 => RXDONE
 
   if (size > 0) {
@@ -399,13 +402,13 @@ void LoRaClass::receive(int size)
 
 void LoRaClass::idle()
 {
-  this->setRfSwitchState(0, 0);
+  setRfSwitchState(0, 0);
   writeRegister(REG_OP_MODE, MODE_LONG_RANGE_MODE | MODE_STDBY);
 }
 
 void LoRaClass::sleep()
 {
-  this->setRfSwitchState(0, 0);
+  setRfSwitchState(0, 0);
   writeRegister(REG_OP_MODE, MODE_LONG_RANGE_MODE | MODE_SLEEP);
 }
 
@@ -655,7 +658,7 @@ void LoRaClass::setSPIFrequency(uint32_t frequency)
 void LoRaClass::dumpRegisters()
 {
   for (int i = 0; i < 128; i++) {
-    printf("0x%x: 0x%x\n",i,readRegister(i));
+    printf("0x%02x: 0x%02x\n",i,readRegister(i));
   }
 }
 

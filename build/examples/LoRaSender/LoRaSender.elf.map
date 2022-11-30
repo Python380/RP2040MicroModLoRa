@@ -1,23 +1,11 @@
 Archive member included to satisfy reference by file (symbol)
 
 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                              CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj (_ZN9LoRaClass5beginEl)
-..\..\src\libLoRa_print.a(Print.cpp.obj)
-                              CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj (_ZN5Print5printEPKc)
-c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
-                              ..\..\src\libLoRa_print.a(Print.cpp.obj) (_ZTVN10__cxxabiv117__class_type_infoE)
-c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
-                              c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o) (_ZdlPvj)
-c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
-                              c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o) (_ZTVN10__cxxabiv120__si_class_type_infoE)
-c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
-                              c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o) (_ZNSt9type_infoD2Ev)
-c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
-                              c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o) (_ZdlPv)
+                              CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj (_ZN9LoRaClass5writeEPKhj)
 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
                               CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj (__aeabi_idiv0)
 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
-                              ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj) (__aeabi_unwind_cpp_pr1)
+                              CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj (__aeabi_unwind_cpp_pr1)
 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(libunwind.o)
                               c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o) (restore_core_regs)
 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
@@ -50,8 +38,6 @@ c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/
                               c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-abort.o) (raise)
 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signalr.o)
                               c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signal.o) (_kill_r)
-c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
-                              c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o) (strcmp)
 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
                               CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj (strlen)
 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-freer.o)
@@ -102,8 +88,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj
  .data          0x00000000        0x0 CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj
  .bss           0x00000000        0x0 CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj
- .ARM.extab.text.startup.main
-                0x00000000        0x0 CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj
  .text          0x00000000        0x0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x00000000        0x0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1365,7 +1349,7 @@ Discarded input sections
  .ARM.exidx.text._ZN9LoRaClass15setSPIFrequencyEm
                 0x00000000        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .rodata._ZN9LoRaClass13dumpRegistersEv.str1.4
-                0x00000000        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x00000000       0x10 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .text._ZN9LoRaClass13dumpRegistersEv
                 0x00000000       0x84 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.extab.text._ZN9LoRaClass13dumpRegistersEv
@@ -1414,12 +1398,8 @@ Discarded input sections
                 0x00000000        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.exidx.text._ZN9LoRaClass14singleTransferEhh
                 0x00000000        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
- .text._ZN9LoRaClass15setRfSwitchPinsEhh
-                0x00000000       0x64 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.extab.text._ZN9LoRaClass15setRfSwitchPinsEhh
                 0x00000000        0x0 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
- .ARM.exidx.text._ZN9LoRaClass15setRfSwitchPinsEhh
-                0x00000000        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .text._ZN9LoRaClass16setRfSwitchStateEbb
                 0x00000000       0x48 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.extab.text._ZN9LoRaClass16setRfSwitchStateEbb
@@ -1428,249 +1408,11 @@ Discarded input sections
                 0x00000000        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.extab.text.startup._GLOBAL__sub_I__ZN9LoRaClassC2Ev
                 0x00000000        0x0 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
- .rodata.CSWTCH.39
+ .rodata.CSWTCH.38
                 0x00000000       0x28 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
- .text          0x00000000        0x0 C:\Users\HENRIK~1.PED\AppData\Local\Temp\cc6H9C6E.o
- .data          0x00000000        0x0 C:\Users\HENRIK~1.PED\AppData\Local\Temp\cc6H9C6E.o
- .bss           0x00000000        0x0 C:\Users\HENRIK~1.PED\AppData\Local\Temp\cc6H9C6E.o
- .group         0x00000000       0x14 ..\..\src\libLoRa_print.a(Print.cpp.obj)
- .group         0x00000000       0x14 ..\..\src\libLoRa_print.a(Print.cpp.obj)
- .data          0x00000000        0x0 ..\..\src\libLoRa_print.a(Print.cpp.obj)
- .bss           0x00000000        0x0 ..\..\src\libLoRa_print.a(Print.cpp.obj)
- .text._ZN5Print17availableForWriteEv
-                0x00000000        0x4 ..\..\src\libLoRa_print.a(Print.cpp.obj)
- .ARM.extab.text._ZN5Print17availableForWriteEv
-                0x00000000        0x0 ..\..\src\libLoRa_print.a(Print.cpp.obj)
- .ARM.exidx.text._ZN5Print17availableForWriteEv
-                0x00000000        0x8 ..\..\src\libLoRa_print.a(Print.cpp.obj)
- .text._ZN5Print5flushEv
-                0x00000000        0x4 ..\..\src\libLoRa_print.a(Print.cpp.obj)
- .ARM.extab.text._ZN5Print5flushEv
-                0x00000000        0x0 ..\..\src\libLoRa_print.a(Print.cpp.obj)
- .ARM.exidx.text._ZN5Print5flushEv
-                0x00000000        0x8 ..\..\src\libLoRa_print.a(Print.cpp.obj)
- .rodata        0x00000000       0x28 ..\..\src\libLoRa_print.a(Print.cpp.obj)
- .text          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .data          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .bss           0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
-                0x00000000       0x34 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.extab.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
-                0x00000000       0x14 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.extab.text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .text._ZN10__cxxabiv117__class_type_infoD2Ev
-                0x00000000       0x18 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.extab.text._ZN10__cxxabiv117__class_type_infoD2Ev
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.exidx.text._ZN10__cxxabiv117__class_type_infoD2Ev
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .text._ZN10__cxxabiv117__class_type_infoD0Ev
-                0x00000000       0x20 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.extab.text._ZN10__cxxabiv117__class_type_infoD0Ev
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.exidx.text._ZN10__cxxabiv117__class_type_infoD0Ev
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
-                0x00000000       0x40 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.extab.text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
-                0x00000000       0x1c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.extab.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
-                0x00000000       0x24 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.extab.text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .rodata._ZTIN10__cxxabiv117__class_type_infoE
-                0x00000000        0xc c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .rodata._ZTSN10__cxxabiv117__class_type_infoE
-                0x00000000       0x22 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .rodata._ZTVN10__cxxabiv117__class_type_infoE
-                0x00000000       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .debug_info    0x00000000      0xc37 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .debug_abbrev  0x00000000      0x51b c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .debug_loclists
-                0x00000000      0x246 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .debug_aranges
-                0x00000000       0x50 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .debug_rnglists
-                0x00000000       0x55 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .debug_line    0x00000000      0x40d c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .debug_str     0x00000000      0xd1c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .comment       0x00000000       0x58 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .debug_frame   0x00000000       0xc4 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .ARM.attributes
-                0x00000000       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
- .text          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .data          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .bss           0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .text._ZdlPvj  0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .ARM.extab.text._ZdlPvj
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .ARM.exidx.text._ZdlPvj
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .debug_info    0x00000000       0xa4 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .debug_abbrev  0x00000000       0xa8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .debug_loclists
-                0x00000000       0x23 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .debug_aranges
-                0x00000000       0x20 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .debug_rnglists
-                0x00000000       0x13 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .debug_line    0x00000000      0x142 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .debug_str     0x00000000      0x1c0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .comment       0x00000000       0x58 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .debug_frame   0x00000000       0x28 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .ARM.attributes
-                0x00000000       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
- .text          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .data          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .bss           0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .text._ZN10__cxxabiv120__si_class_type_infoD2Ev
-                0x00000000       0x18 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .ARM.extab.text._ZN10__cxxabiv120__si_class_type_infoD2Ev
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .ARM.exidx.text._ZN10__cxxabiv120__si_class_type_infoD2Ev
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .text._ZN10__cxxabiv120__si_class_type_infoD0Ev
-                0x00000000       0x20 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .ARM.extab.text._ZN10__cxxabiv120__si_class_type_infoD0Ev
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .ARM.exidx.text._ZN10__cxxabiv120__si_class_type_infoD0Ev
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
-                0x00000000       0x38 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
-                0x00000000       0x9c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
-                0x00000000        0xc c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
-                0x00000000       0x24 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .rodata._ZTIN10__cxxabiv120__si_class_type_infoE
-                0x00000000        0xc c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .rodata._ZTSN10__cxxabiv120__si_class_type_infoE
-                0x00000000       0x25 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .rodata._ZTVN10__cxxabiv120__si_class_type_infoE
-                0x00000000       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .debug_info    0x00000000      0xa1f c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .debug_abbrev  0x00000000      0x466 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .debug_loclists
-                0x00000000      0x274 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .debug_aranges
-                0x00000000       0x40 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .debug_rnglists
-                0x00000000       0x47 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .debug_line    0x00000000      0x3b9 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .debug_str     0x00000000      0xa69 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .comment       0x00000000       0x58 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .debug_frame   0x00000000       0xa8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .ARM.attributes
-                0x00000000       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
- .text          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .data          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .bss           0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .text._ZNSt9type_infoD2Ev
-                0x00000000        0x4 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.extab.text._ZNSt9type_infoD2Ev
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.exidx.text._ZNSt9type_infoD2Ev
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .text._ZNKSt9type_info14__is_pointer_pEv
-                0x00000000        0x4 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.extab.text._ZNKSt9type_info14__is_pointer_pEv
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.exidx.text._ZNKSt9type_info14__is_pointer_pEv
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
-                0x00000000        0x4 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.extab.text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.exidx.text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .text._ZNSt9type_infoD0Ev
-                0x00000000       0x10 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.extab.text._ZNSt9type_infoD0Ev
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.exidx.text._ZNSt9type_infoD0Ev
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .text._ZNKSt9type_info10__do_catchEPKS_PPvj
-                0x00000000       0x30 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.extab.text._ZNKSt9type_info10__do_catchEPKS_PPvj
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.exidx.text._ZNKSt9type_info10__do_catchEPKS_PPvj
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .text._ZNKSt9type_infoeqERKS_
-                0x00000000       0x30 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.extab.text._ZNKSt9type_infoeqERKS_
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.exidx.text._ZNKSt9type_infoeqERKS_
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .rodata._ZTISt9type_info
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .rodata._ZTSSt9type_info
-                0x00000000        0xd c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .rodata._ZTVSt9type_info
-                0x00000000       0x20 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .debug_info    0x00000000      0x949 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .debug_abbrev  0x00000000      0x40b c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .debug_loclists
-                0x00000000      0x16a c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .debug_aranges
-                0x00000000       0x48 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .debug_rnglists
-                0x00000000       0x40 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .debug_line    0x00000000      0x349 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .debug_str     0x00000000      0x9fe c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .comment       0x00000000       0x58 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .debug_frame   0x00000000       0x88 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .ARM.attributes
-                0x00000000       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
- .text          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .data          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .bss           0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .text._ZdlPv   0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .ARM.extab.text._ZdlPv
-                0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .ARM.exidx.text._ZdlPv
-                0x00000000        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .debug_info    0x00000000      0x5b0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .debug_abbrev  0x00000000      0x193 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .debug_loclists
-                0x00000000       0x23 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .debug_aranges
-                0x00000000       0x20 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .debug_rnglists
-                0x00000000       0x13 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .debug_line    0x00000000      0x2a4 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .debug_str     0x00000000      0x373 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .comment       0x00000000       0x58 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .debug_frame   0x00000000       0x28 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
- .ARM.attributes
-                0x00000000       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a(del_op.o)
+ .text          0x00000000        0x0 C:\Users\HENRIK~1.PED\AppData\Local\Temp\ccEBnOEI.o
+ .data          0x00000000        0x0 C:\Users\HENRIK~1.PED\AppData\Local\Temp\ccEBnOEI.o
+ .bss           0x00000000        0x0 C:\Users\HENRIK~1.PED\AppData\Local\Temp\ccEBnOEI.o
  .data          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
@@ -2014,20 +1756,6 @@ Discarded input sections
  .text          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signalr.o)
  .data          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signalr.o)
  .bss           0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signalr.o)
- .text          0x00000000       0x88 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
- .data          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
- .bss           0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
- .debug_line    0x00000000       0x87 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
- .debug_line_str
-                0x00000000       0xce c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
- .debug_info    0x00000000       0x25 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
- .debug_abbrev  0x00000000       0x14 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
- .debug_aranges
-                0x00000000       0x20 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
- .debug_str     0x00000000       0xa5 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
- .debug_frame   0x00000000       0x20 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
- .ARM.attributes
-                0x00000000       0x1b c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strcmp.o)
  .text          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
  .data          0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
  .bss           0x00000000        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
@@ -2117,11 +1845,11 @@ LOAD c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\HENRIK~1.PED\AppData\Local\Temp\cc6H9C6E.o
+ .boot2         0x10000000      0x100 C:\Users\HENRIK~1.PED\AppData\Local\Temp\ccEBnOEI.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x8818
+.text           0x10000100     0x7e40
                 0x10000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -2187,659 +1915,635 @@ LOAD c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/
  .text.frame_dummy
                 0x100002ec       0x24 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x10000310       0xa0 CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj
+                0x10000310       0xd8 CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj
                 0x10000310                main
  .text.gpio_set_function
-                0x100003b0       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100003b0                gpio_set_function
+                0x100003e8       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100003e8                gpio_set_function
  .text.gpio_init
-                0x100003e0       0x3c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100003e0                gpio_init
+                0x10000418       0x3c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000418                gpio_init
  .text.hw_claim_or_assert
-                0x1000041c       0x44 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x1000041c                hw_claim_or_assert
+                0x10000454       0x44 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000454                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x10000460       0x9c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000460                hw_claim_unused_from_range
+                0x10000498       0x9c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000498                hw_claim_unused_from_range
  .text.running_on_fpga
-                0x100004fc       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x100004fc                running_on_fpga
+                0x10000534       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000534                running_on_fpga
  .text.spin_locks_reset
-                0x1000050c       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x1000050c                spin_locks_reset
+                0x10000544       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000544                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000528       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000528                next_striped_spin_lock_num
+                0x10000560       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000560                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x10000540       0x24 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000540                spin_lock_claim_unused
+                0x10000578       0x24 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000578                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x10000564       0x24 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000564                irq_set_enabled
+                0x1000059c       0x24 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000059c                irq_set_enabled
  .text.irq_set_pending
-                0x10000588       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000588                irq_set_pending
+                0x100005c0       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005c0                irq_set_pending
  .text.irq_has_shared_handler
-                0x10000598       0x2c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000598                irq_has_shared_handler
+                0x100005d0       0x2c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005d0                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x100005c4       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005c4                irq_get_vtable_handler
+                0x100005fc       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005fc                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x100005d4       0x54 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005d4                irq_set_exclusive_handler
+                0x1000060c       0x54 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000060c                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x10000628      0x1e0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000628                irq_add_shared_handler
+                0x10000660      0x1e0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000660                irq_add_shared_handler
  .text.irq_remove_handler
-                0x10000808      0x1b4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000808                irq_remove_handler
+                0x10000840      0x1b4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000840                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x100009bc       0xb4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100009bc                irq_add_tail_to_free_list
+                0x100009f4       0xb4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100009f4                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000a70       0x24 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a70                irq_init_priorities
+                0x10000aa8       0x24 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000aa8                irq_init_priorities
  .text.user_irq_claim_unused
-                0x10000a94       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a94                user_irq_claim_unused
+                0x10000acc       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000acc                user_irq_claim_unused
  .text.lock_init
-                0x10000ac4       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10000ac4                lock_init
+                0x10000afc       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10000afc                lock_init
  .text.timer_pool_entry_comparator
-                0x10000ad4       0x34 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000ad4                timer_pool_entry_comparator
+                0x10000b0c       0x34 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000b0c                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x10000b08       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000b40       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x10000b38      0x104 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000b70      0x104 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000c3c      0x1c8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c74      0x1c8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_add_alarm_at.constprop.0
-                0x10000e04      0x11c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000e3c      0x11c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000f20       0x64 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000f20                alarm_pool_init_default
+                0x10000f58       0x64 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f58                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x10000f84        0x8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000f84                alarm_pool_get_default
+                0x10000fbc        0x8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000fbc                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10000f8c      0x1a0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000f8c                alarm_pool_add_alarm_at
+                0x10000fc4      0x1a0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000fc4                alarm_pool_add_alarm_at
  .text.sleep_until
-                0x1000112c       0xac CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000112c                sleep_until
+                0x10001164       0xac CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001164                sleep_until
  .text.sleep_ms
-                0x100011d8       0x38 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100011d8                sleep_ms
+                0x10001210       0x38 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001210                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10001210       0xc0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001210                best_effort_wfe_or_timeout
+                0x10001248       0xc0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001248                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x100012d0       0xb8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001308       0xb8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10001388       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001388                hardware_alarm_claim
+                0x100013c0       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100013c0                hardware_alarm_claim
  .text.time_us_64
-                0x100013a0       0x14 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100013a0                time_us_64
+                0x100013d8       0x14 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100013d8                time_us_64
  .text.busy_wait_until
-                0x100013b4       0x20 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100013b4                busy_wait_until
+                0x100013ec       0x20 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100013ec                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x100013d4       0x8c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100013d4                hardware_alarm_set_callback
+                0x1000140c       0x8c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000140c                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10001460       0xe0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001460                hardware_alarm_set_target
+                0x10001498       0xe0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001498                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10001540       0x3c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001540                hardware_alarm_cancel
+                0x10001578       0x3c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001578                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x1000157c       0x68 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100015b4       0x68 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x100015e4       0x3c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100015e4                ph_post_alloc_init
+                0x1000161c       0x3c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000161c                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x10001620       0x9c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001620                ph_merge_two_pass
+                0x10001658       0x9c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001658                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x100016bc       0xf8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100016f4       0xf8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x100017b4       0xfc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100017b4                ph_remove_head
+                0x100017ec       0xfc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100017ec                ph_remove_head
  .text.ph_remove_and_free_node
-                0x100018b0       0x7c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100018b0                ph_remove_and_free_node
+                0x100018e8       0x7c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100018e8                ph_remove_and_free_node
  .text.mutex_init
-                0x1000192c       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x1000192c                mutex_init
+                0x10001964       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10001964                mutex_init
  .text.recursive_mutex_init
-                0x10001948       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10001948                recursive_mutex_init
+                0x10001980       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10001980                recursive_mutex_init
  .text.critical_section_init
-                0x10001964       0x20 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x10001964                critical_section_init
+                0x1000199c       0x20 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x1000199c                critical_section_init
  .text.runtime_init
-                0x10001984       0xf0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001984                runtime_init
- .text._exit    0x10001a74        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a74                _exit
- .text.exit     0x10001a78        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a78                exit
- .text.panic    0x10001a7c       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a7c                panic
+                0x100019bc       0xf0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100019bc                runtime_init
+ .text._exit    0x10001aac        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001aac                _exit
+ .text.exit     0x10001ab0        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001ab0                exit
+ .text.panic    0x10001ab4       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001ab4                panic
  .text.hard_assertion_failure
-                0x10001aac        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001aac                hard_assertion_failure
+                0x10001ae4        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001ae4                hard_assertion_failure
  .text.clocks_init
-                0x10001ab8      0x2b0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001ab8                clocks_init
+                0x10001af0      0x2b0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001af0                clocks_init
  .text.clock_get_hz
-                0x10001d68        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001d68                clock_get_hz
+                0x10001da0        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001da0                clock_get_hz
  .text.pll_init
-                0x10001d74       0xa8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001d74                pll_init
+                0x10001dac       0xa8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001dac                pll_init
  .text.watchdog_start_tick
-                0x10001e1c       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10001e1c                watchdog_start_tick
+                0x10001e54       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10001e54                watchdog_start_tick
  .text.watchdog_reboot
-                0x10001e2c       0x9c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10001e2c                watchdog_reboot
+                0x10001e64       0x9c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10001e64                watchdog_reboot
  .text.xosc_init
-                0x10001ec8       0x28 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10001ec8                xosc_init
+                0x10001f00       0x28 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10001f00                xosc_init
  .text._out_null
-                0x10001ef0        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001f28        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x10001ef4       0x90 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001f2c       0x90 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x10001f84      0x1cc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001fbc      0x1cc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x10002150       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002188       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x10002160       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x10002170      0x44c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x100025bc      0x3d0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002198       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x100021a8      0x44c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x100025f4      0x3d0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x1000298c      0xabc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100029c4      0xabc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x10003448       0x20 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003448                vfctprintf
+                0x10003480       0x20 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003480                vfctprintf
  .text.weak_raw_vprintf
-                0x10003468       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003468                weak_raw_vprintf
- .text          0x10003498       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x100034a0       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100034a0                weak_raw_vprintf
+ .text          0x100034d0       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x100034a8       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100034a8                rom_func_lookup
+                0x100034e0       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100034e0                rom_func_lookup
  .text.rom_data_lookup
-                0x100034b8       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100034b8                rom_data_lookup
+                0x100034f0       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100034f0                rom_data_lookup
  .text.rom_funcs_lookup
-                0x100034c8       0x44 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100034c8                rom_funcs_lookup
+                0x10003500       0x44 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003500                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x1000350c       0x50 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x1000350c                __wrap___aeabi_idivmod
-                0x1000350c                divmod_s32s32
-                0x1000350c                div_s32s32
-                0x1000350c                __wrap___aeabi_idiv
-                0x10003514                divmod_s32s32_unsafe
-                0x10003540                divmod_s32s32_savestate
+                0x10003544       0x50 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003544                __wrap___aeabi_idivmod
+                0x10003544                divmod_s32s32
+                0x10003544                div_s32s32
+                0x10003544                __wrap___aeabi_idiv
+                0x1000354c                divmod_s32s32_unsafe
+                0x10003578                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x1000355c       0x4c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x1000355c                __wrap___aeabi_uidiv
-                0x1000355c                __wrap___aeabi_uidivmod
-                0x1000355c                div_u32u32
-                0x1000355c                divmod_u32u32
-                0x10003564                divmod_u32u32_unsafe
-                0x1000358c                divmod_u32u32_savestate
+                0x10003594       0x4c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003594                __wrap___aeabi_uidiv
+                0x10003594                __wrap___aeabi_uidivmod
+                0x10003594                div_u32u32
+                0x10003594                divmod_u32u32
+                0x1000359c                divmod_u32u32_unsafe
+                0x100035c4                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x100035a8      0x434 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100035a8                div_s64s64
-                0x100035a8                divmod_s64s64
-                0x100035a8                __wrap___aeabi_ldivmod
-                0x100035e0                divmod_u64u64
-                0x100035e0                div_u64u64
-                0x100035e0                __wrap___aeabi_uldivmod
-                0x100035f0                divmod_u64u64_savestate
-                0x10003618                divmod_s64s64_unsafe
-                0x100036a0                divmod_u64u64_unsafe
+                0x100035e0      0x434 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100035e0                div_s64s64
+                0x100035e0                divmod_s64s64
+                0x100035e0                __wrap___aeabi_ldivmod
+                0x10003618                divmod_u64u64
+                0x10003618                div_u64u64
+                0x10003618                __wrap___aeabi_uldivmod
+                0x10003628                divmod_u64u64_savestate
+                0x10003650                divmod_s64s64_unsafe
+                0x100036d8                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x100039dc       0x80 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100039dc                __wrap___aeabi_drsub
-                0x100039e2                __wrap___aeabi_dsub
-                0x100039f4                __wrap___aeabi_dadd
-                0x10003a06                __wrap___aeabi_ddiv
-                0x10003a42                __wrap___aeabi_dmul
+                0x10003a14       0x80 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a14                __wrap___aeabi_drsub
+                0x10003a1a                __wrap___aeabi_dsub
+                0x10003a2c                __wrap___aeabi_dadd
+                0x10003a3e                __wrap___aeabi_ddiv
+                0x10003a7a                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10003a5c       0x6c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a5c                __wrap___aeabi_cdrcmple
-                0x10003a6c                __wrap___aeabi_cdcmpeq
-                0x10003a6c                __wrap___aeabi_cdcmple
+                0x10003a94       0x6c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a94                __wrap___aeabi_cdrcmple
+                0x10003aa4                __wrap___aeabi_cdcmpeq
+                0x10003aa4                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10003ac8        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ac8                __wrap___aeabi_dcmplt
+                0x10003b00        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b00                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x10003ad4       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ad4                __wrap___aeabi_dcmple
+                0x10003b0c       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b0c                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x10003ae4       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ae4                __wrap___aeabi_dcmpge
+                0x10003b1c       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b1c                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10003af4        0xa CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003af4                __wrap___aeabi_dcmpgt
+                0x10003b2c        0xa CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b2c                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10003afe       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003afe                __wrap___aeabi_dcmpun
- *fill*         0x10003b1a        0x2 
+                0x10003b36       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b36                __wrap___aeabi_dcmpun
+ *fill*         0x10003b52        0x2 
  .text.__wrap___aeabi_i2d
-                0x10003b1c       0x38 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b1c                __wrap___aeabi_ui2d
-                0x10003b24                __wrap___aeabi_i2d
+                0x10003b54       0x38 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b54                __wrap___aeabi_ui2d
+                0x10003b5c                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10003b54       0x48 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b54                double2int_z
-                0x10003b54                __wrap___aeabi_d2iz
+                0x10003b8c       0x48 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b8c                double2int_z
+                0x10003b8c                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x10003b9c       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b9c                __wrap___aeabi_d2uiz
-                0x10003b9c                double2uint
+                0x10003bd4       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003bd4                __wrap___aeabi_d2uiz
+                0x10003bd4                double2uint
  .text.__aeabi_double_init
-                0x10003bb4       0x94 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10003bb4                __aeabi_double_init
+                0x10003bec       0x94 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003bec                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10003c48       0x2c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003c48                double_table_shim_on_use_helper
+                0x10003c80       0x2c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003c80                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x10003c74       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003c74                drsub_shim
-                0x10003c7a                dsub_shim
+                0x10003cac       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003cac                drsub_shim
+                0x10003cb2                dsub_shim
  .text.dadd_shim
-                0x10003c84      0x15c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003c84                dadd_shim
+                0x10003cbc      0x15c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003cbc                dadd_shim
  .text.dmul_shim
-                0x10003de0      0x15c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003de0                dmul_shim
+                0x10003e18      0x15c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003e18                dmul_shim
  .text.ddiv_shim
-                0x10003f3c      0x1b0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003f3c                ddiv_shim
+                0x10003f74      0x1b0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003f74                ddiv_shim
  .text.double2uint_shim
-                0x100040ec        0xe CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100040ec                double2uint_shim
-                0x100040ee                double2ufix_shim
- *fill*         0x100040fa        0x2 
+                0x10004124        0xe CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004124                double2uint_shim
+                0x10004126                double2ufix_shim
+ *fill*         0x10004132        0x2 
  .text.double2uint64_shim
-                0x100040fc       0x70 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100040fc                double2uint64_shim
-                0x100040fe                double2ufix64_shim
-                0x1000411e                d2fix_a
+                0x10004134       0x70 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004134                double2uint64_shim
+                0x10004136                double2ufix64_shim
+                0x10004156                d2fix_a
  .text.dunpacks
-                0x1000416c       0x3c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000416c                dunpacks
+                0x100041a4       0x3c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100041a4                dunpacks
  .text.__aeabi_lmul
-                0x100041a8       0x32 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x100041a8                __wrap___aeabi_lmul
- *fill*         0x100041da        0x2 
+                0x100041e0       0x32 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x100041e0                __wrap___aeabi_lmul
+ *fill*         0x10004212        0x2 
  .text.__aeabi_float_init
-                0x100041dc       0x64 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x100041dc                __aeabi_float_init
+                0x10004214       0x64 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10004214                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10004240       0x2c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10004240                float_table_shim_on_use_helper
- .text          0x1000426c       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x1000426c                __aeabi_mem_init
- .text.memset   0x1000427c        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x1000427c                __wrap_memset
- .text.memcpy   0x10004288        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10004288                __wrap_memcpy
-                0x10004288                __wrap___aeabi_memcpy
+                0x10004278       0x2c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10004278                float_table_shim_on_use_helper
+ .text          0x100042a4       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100042a4                __aeabi_mem_init
+ .text.memset   0x100042b4        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100042b4                __wrap_memset
+ .text.memcpy   0x100042c0        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100042c0                __wrap_memcpy
+                0x100042c0                __wrap___aeabi_memcpy
  .text.stdio_out_chars_no_crlf
-                0x10004294       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100042cc       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x100042a4       0xb4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100042dc       0xb4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x10004358       0x64 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004390       0x64 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x100043bc       0xfc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100043f4       0xfc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x100044b8       0xa0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100044b8                __wrap_putchar
+                0x100044f0       0xa0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100044f0                __wrap_putchar
  .text.__wrap_puts
-                0x10004558       0x3c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004558                __wrap_puts
+                0x10004590       0x3c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004590                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x10004594       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004594                stdio_set_driver_enabled
+                0x100045cc       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100045cc                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x100045c4       0xd4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100045c4                __wrap_vprintf
+                0x100045fc       0xd4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100045fc                __wrap_vprintf
  .text.__wrap_printf
-                0x10004698       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004698                __wrap_printf
+                0x100046d0       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100046d0                __wrap_printf
  .text.stdio_init_all
-                0x100046b0        0x8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100046b0                stdio_init_all
+                0x100046e8        0x8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100046e8                stdio_init_all
  .text.resetd_init
-                0x100046b8        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .text.resetd_reset
-                0x100046bc        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .text.resetd_open
-                0x100046c8       0x28 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .text.resetd_xfer_cb
                 0x100046f0        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .text.resetd_reset
+                0x100046f4        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .text.resetd_open
+                0x10004700       0x28 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .text.resetd_xfer_cb
+                0x10004728        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x100046f4       0x64 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x1000472c       0x64 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x10004758        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10004758                usbd_app_driver_get_cb
+                0x10004790        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004790                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x10004764       0x34 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10004764                tud_cdc_line_coding_cb
+                0x1000479c       0x34 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x1000479c                tud_cdc_line_coding_cb
  .text.stdio_usb_in_chars
-                0x10004798       0x68 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004798                stdio_usb_in_chars
+                0x100047d0       0x68 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100047d0                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x10004800       0xe8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004838       0xe8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x100048e8       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .text.usb_irq  0x10004900       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004920       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .text.usb_irq  0x10004938       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x10004910       0x24 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004948       0x24 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_init
-                0x10004934       0xb0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004934                stdio_usb_init
+                0x1000496c       0xb0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1000496c                stdio_usb_init
  .text.stdio_usb_connected
-                0x100049e4        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x100049e4                stdio_usb_connected
+                0x10004a1c        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004a1c                stdio_usb_connected
  .text.tud_descriptor_device_cb
-                0x100049f0        0x8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x100049f0                tud_descriptor_device_cb
+                0x10004a28        0x8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10004a28                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x100049f8        0x8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x100049f8                tud_descriptor_configuration_cb
+                0x10004a30        0x8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10004a30                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x10004a00       0x74 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10004a00                tud_descriptor_string_cb
+                0x10004a38       0x74 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10004a38                tud_descriptor_string_cb
  .text.dcd_rp2040_irq
-                0x10004a74      0x1cc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004aac      0x1cc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.dcd_int_enable
-                0x10004c40        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004c40                dcd_int_enable
+                0x10004c78        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004c78                dcd_int_enable
  .text.dcd_set_address
-                0x10004c4c       0x14 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004c4c                dcd_set_address
+                0x10004c84       0x14 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004c84                dcd_set_address
  .text.dcd_connect
-                0x10004c60       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004c60                dcd_connect
+                0x10004c98       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004c98                dcd_connect
  .text.dcd_init
-                0x10004c70       0xf0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004c70                dcd_init
+                0x10004ca8       0xf0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004ca8                dcd_init
  .text.dcd_edpt0_status_complete
-                0x10004d60       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004d60                dcd_edpt0_status_complete
+                0x10004d98       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004d98                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x10004d7c       0xf0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004d7c                dcd_edpt_open
+                0x10004db4       0xf0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004db4                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x10004e6c       0x68 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004e6c                dcd_edpt_close_all
+                0x10004ea4       0x68 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004ea4                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x10004ed4       0x24 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004ed4                dcd_edpt_xfer
+                0x10004f0c       0x24 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004f0c                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x10004ef8       0x38 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004ef8                dcd_edpt_stall
+                0x10004f30       0x38 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004f30                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x10004f30       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004f30                dcd_edpt_clear_stall
+                0x10004f68       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004f68                dcd_edpt_clear_stall
  .text._hw_endpoint_buffer_control_update32.part.0.isra.0
-                0x10004f60       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10004f98       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .text.rp2040_usb_init
-                0x10004f7c       0x4c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10004f7c                rp2040_usb_init
+                0x10004fb4       0x4c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10004fb4                rp2040_usb_init
  .text.hw_endpoint_reset_transfer
-                0x10004fc8        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10004fc8                hw_endpoint_reset_transfer
+                0x10005000        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005000                hw_endpoint_reset_transfer
  .text._hw_endpoint_buffer_control_update32
-                0x10004fd4       0x44 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10004fd4                _hw_endpoint_buffer_control_update32
+                0x1000500c       0x44 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x1000500c                _hw_endpoint_buffer_control_update32
  .text.hw_endpoint_xfer_start
-                0x10005018      0x134 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10005018                hw_endpoint_xfer_start
+                0x10005050      0x134 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005050                hw_endpoint_xfer_start
  .text.hw_endpoint_xfer_continue
-                0x1000514c      0x1dc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x1000514c                hw_endpoint_xfer_continue
+                0x10005184      0x1dc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005184                hw_endpoint_xfer_continue
  .text.tud_mounted
-                0x10005328       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005328                tud_mounted
+                0x10005360       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005360                tud_mounted
  .text.tud_suspended
-                0x10005338       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005338                tud_suspended
+                0x10005370       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005370                tud_suspended
  .text.tud_inited
-                0x10005348        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005348                tud_inited
+                0x10005380        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005380                tud_inited
  .text.tud_init
-                0x10005354       0xd8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005354                tud_init
+                0x1000538c       0xd8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1000538c                tud_init
  .text.tud_task
-                0x1000542c      0x93c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000542c                tud_task
+                0x10005464      0x93c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005464                tud_task
  .text.dcd_event_bus_signal
-                0x10005d68      0x120 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005d68                dcd_event_bus_signal
+                0x10005da0      0x120 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005da0                dcd_event_bus_signal
  .text.dcd_event_bus_reset
-                0x10005e88       0x54 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005e88                dcd_event_bus_reset
+                0x10005ec0       0x54 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005ec0                dcd_event_bus_reset
  .text.dcd_event_setup_received
-                0x10005edc       0x50 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005edc                dcd_event_setup_received
+                0x10005f14       0x50 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005f14                dcd_event_setup_received
  .text.dcd_event_xfer_complete
-                0x10005f2c       0x68 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005f2c                dcd_event_xfer_complete
+                0x10005f64       0x68 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005f64                dcd_event_xfer_complete
  .text.usbd_open_edpt_pair
-                0x10005f94       0x80 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005f94                usbd_open_edpt_pair
+                0x10005fcc       0x80 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005fcc                usbd_open_edpt_pair
  .text.usbd_edpt_open
-                0x10006014       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006014                usbd_edpt_open
+                0x1000604c       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1000604c                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x10006044       0x64 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006044                usbd_edpt_claim
+                0x1000607c       0x64 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1000607c                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x100060a8       0x4c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100060a8                usbd_edpt_release
+                0x100060e0       0x4c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100060e0                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x100060f4       0x48 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100060f4                usbd_edpt_xfer
+                0x1000612c       0x48 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1000612c                usbd_edpt_xfer
  .text.tud_control_status
-                0x1000613c       0x2c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x1000613c                tud_control_status
+                0x10006174       0x2c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006174                tud_control_status
  .text.tud_control_xfer
-                0x10006168       0xac CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006168                tud_control_xfer
+                0x100061a0       0xac CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100061a0                tud_control_xfer
  .text.usbd_control_reset
-                0x10006214       0x14 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006214                usbd_control_reset
+                0x1000624c       0x14 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x1000624c                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x10006228        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006228                usbd_control_set_complete_callback
+                0x10006260        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006260                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x10006234       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006234                usbd_control_set_request
+                0x1000626c       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x1000626c                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x10006250       0xf4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006250                usbd_control_xfer_cb
+                0x10006288       0xf4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006288                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x10006344       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006344                tud_cdc_n_connected
+                0x1000637c       0x30 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000637c                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x10006374       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006374                tud_cdc_n_available
+                0x100063ac       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100063ac                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x1000638c       0x70 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x1000638c                tud_cdc_n_read
+                0x100063c4       0x70 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100063c4                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x100063fc       0x78 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100063fc                tud_cdc_n_write_flush
+                0x10006434       0x78 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006434                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x10006474       0x34 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006474                tud_cdc_n_write
+                0x100064ac       0x34 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100064ac                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x100064a8       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100064a8                tud_cdc_n_write_available
+                0x100064e0       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100064e0                tud_cdc_n_write_available
  .text.cdcd_init
-                0x100064c0       0x7c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100064c0                cdcd_init
+                0x100064f8       0x7c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100064f8                cdcd_init
  .text.cdcd_reset
-                0x1000653c       0x2c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x1000653c                cdcd_reset
+                0x10006574       0x2c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006574                cdcd_reset
  .text.cdcd_open
-                0x10006568       0xe4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006568                cdcd_open
+                0x100065a0       0xe4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100065a0                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x1000664c       0xe4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x1000664c                cdcd_control_xfer_cb
+                0x10006684       0xe4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006684                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x10006730      0x148 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006730                cdcd_xfer_cb
+                0x10006768      0x148 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006768                cdcd_xfer_cb
  .text.tusb_init
-                0x10006878        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006878                tusb_init
+                0x100068b0        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100068b0                tusb_init
  .text.tusb_inited
-                0x10006884        0x8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006884                tusb_inited
+                0x100068bc        0x8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100068bc                tusb_inited
  .text.tu_edpt_validate
-                0x1000688c       0x78 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x1000688c                tu_edpt_validate
+                0x100068c4       0x78 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100068c4                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x10006904       0x2c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006904                tu_edpt_bind_driver
+                0x1000693c       0x2c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x1000693c                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x10006930       0x78 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006930                tu_fifo_config
+                0x10006968       0x78 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006968                tu_fifo_config
  .text.tu_fifo_count
-                0x100069a8       0x20 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100069a8                tu_fifo_count
+                0x100069e0       0x20 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100069e0                tu_fifo_count
  .text.tu_fifo_empty
-                0x100069c8       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100069c8                tu_fifo_empty
+                0x10006a00       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006a00                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x100069d8       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100069d8                tu_fifo_remaining
+                0x10006a10       0x1c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006a10                tu_fifo_remaining
  .text.tu_fifo_read
-                0x100069f4       0x9c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100069f4                tu_fifo_read
+                0x10006a2c       0x9c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006a2c                tu_fifo_read
  .text.tu_fifo_read_n
-                0x10006a90       0xfc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006a90                tu_fifo_read_n
+                0x10006ac8       0xfc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006ac8                tu_fifo_read_n
  .text.tu_fifo_write
-                0x10006b8c       0x7c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006b8c                tu_fifo_write
+                0x10006bc4       0x7c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006bc4                tu_fifo_write
  .text.tu_fifo_write_n
-                0x10006c08      0x100 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006c08                tu_fifo_write_n
+                0x10006c40      0x100 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006c40                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x10006d08       0x4c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006d08                tu_fifo_clear
+                0x10006d40       0x4c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006d40                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x10006d54       0x3c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006d54                tu_fifo_set_overwritable
+                0x10006d8c       0x3c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006d8c                tu_fifo_set_overwritable
  .text.startup._retrieve_unique_id_on_boot
-                0x10006d90       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10006dc8       0x10 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x10006da0      0x1a8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x10006da0                pico_get_unique_board_id_string
+                0x10006dd8      0x1a8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10006dd8                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x10006f48       0x40 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x10006f48                flash_get_unique_id
+                0x10006f80       0x40 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x10006f80                flash_get_unique_id
  .text.spi_init
-                0x10006f88       0xf8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-                0x10006f88                spi_init
+                0x10006fc0       0xf8 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+                0x10006fc0                spi_init
  .text._ZN5Print17availableForWriteEv
-                0x10007080        0x4 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                0x10007080                _ZN5Print17availableForWriteEv
+                0x100070b8        0x4 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x100070b8                _ZN5Print17availableForWriteEv
  .text._ZN9LoRaClass5flushEv
-                0x10007084        0x4 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                0x10007084                _ZN9LoRaClass5flushEv
+                0x100070bc        0x4 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x100070bc                _ZN9LoRaClass5flushEv
  .text._ZN9LoRaClass9availableEv
-                0x10007088       0x64 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                0x10007088                _ZN9LoRaClass9availableEv
- .text._ZN9LoRaClass4readEv
-                0x100070ec       0xbc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                0x100070ec                _ZN9LoRaClass4readEv
+                0x100070c0       0x7c ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x100070c0                _ZN9LoRaClass9availableEv
  .text._ZN9LoRaClass5writeEPKhj
-                0x100071a8      0x128 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                0x100071a8                _ZN9LoRaClass5writeEPKhj
- .text._ZN9LoRaClass4peekEv
-                0x100072d0      0x124 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                0x100072d0                _ZN9LoRaClass4peekEv
+                0x1000713c      0x104 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x1000713c                _ZN9LoRaClass5writeEPKhj
+ .text._ZN9LoRaClass4readEv
+                0x10007240       0xec ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10007240                _ZN9LoRaClass4readEv
  .text._ZN9LoRaClass5writeEh
-                0x100073f4      0x128 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                0x100073f4                _ZN9LoRaClass5writeEh
+                0x1000732c       0xf8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x1000732c                _ZN9LoRaClass5writeEh
+ .text._ZN9LoRaClass4peekEv
+                0x10007424      0x158 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10007424                _ZN9LoRaClass4peekEv
  .text._ZN9LoRaClass5beginEl
-                0x1000751c      0x380 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                0x1000751c                _ZN9LoRaClass5beginEl
+                0x1000757c      0x380 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x1000757c                _ZN9LoRaClass5beginEl
  .text._ZN9LoRaClass11beginPacketEi
-                0x1000789c      0x23c ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                0x1000789c                _ZN9LoRaClass11beginPacketEi
+                0x100078fc      0x23c ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x100078fc                _ZN9LoRaClass11beginPacketEi
  .text._ZN9LoRaClass9endPacketEb
-                0x10007ad8      0x170 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                0x10007ad8                _ZN9LoRaClass9endPacketEb
+                0x10007b38      0x1b0 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10007b38                _ZN9LoRaClass9endPacketEb
  .text._ZN9LoRaClass7setPinsEiii
-                0x10007c48        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                0x10007c48                _ZN9LoRaClass7setPinsEiii
+                0x10007ce8        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10007ce8                _ZN9LoRaClass7setPinsEiii
+ .text._ZN9LoRaClass15setRfSwitchPinsEhh
+                0x10007cf0       0x64 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10007cf0                _ZN9LoRaClass15setRfSwitchPinsEhh
  .text.startup._GLOBAL__sub_I__ZN9LoRaClassC2Ev
-                0x10007c50       0x38 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
- .text          0x10007c88      0xadc ..\..\src\libLoRa_print.a(Print.cpp.obj)
-                0x10007c88                _ZN5Print5writeEPKhj
-                0x10007cb0                _ZN5Print5printENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-                0x10007cf4                _ZN5Print5printEc
-                0x10007d00                _ZN5Print5printEPKc
-                0x10007d60                _ZN5Print7printlnEv
-                0x10007d9c                _ZN5Print7printlnEPKc
-                0x10007e34                _ZN5Print7printlnEc
-                0x10007e80                _ZN5Print11printNumberEmh
-                0x10007f1c                _ZN5Print5printEli
-                0x10007f60                _ZN5Print7printlnEii
-                0x10007fac                _ZN5Print7printlnEli
-                0x10007ff8                _ZN5Print5printEmi
-                0x10008010                _ZN5Print5printEji
-                0x10008028                _ZN5Print5printEhi
-                0x10008040                _ZN5Print7printlnEji
-                0x100080a4                _ZN5Print7printlnEmi
-                0x10008108                _ZN5Print7printlnEhi
-                0x1000816c                _ZN5Print5printEii
-                0x100081b0                _ZN5Print14printULLNumberEyh
-                0x100082f4                _ZN5Print5printExi
-                0x10008348                _ZN5Print5printEyi
-                0x10008368                _ZN5Print7printlnEyi
-                0x100083d4                _ZN5Print7printlnExi
-                0x10008470                _ZN5Print10printFloatEdi
-                0x10008700                _ZN5Print5printEdi
-                0x10008710                _ZN5Print7printlnEdi
- .text.abort    0x10008764       0x10 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-abort.o)
-                0x10008764                abort
- .text.raise    0x10008774       0x60 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signal.o)
-                0x10008774                raise
- .text._kill_r  0x100087d4       0x28 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signalr.o)
-                0x100087d4                _kill_r
+                0x10007d54       0x38 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+ .text.abort    0x10007d8c       0x10 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-abort.o)
+                0x10007d8c                abort
+ .text.raise    0x10007d9c       0x60 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signal.o)
+                0x10007d9c                raise
+ .text._kill_r  0x10007dfc       0x28 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signalr.o)
+                0x10007dfc                _kill_r
  .text._getpid_r
-                0x100087fc        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signalr.o)
-                0x100087fc                _getpid_r
- .text.strlen   0x10008804       0x5c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
-                0x10008804                strlen
- .text._getpid  0x10008860       0x10 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libnosys.a(getpid.o)
-                0x10008860                _getpid
- .text._kill    0x10008870       0x10 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libnosys.a(kill.o)
-                0x10008870                _kill
+                0x10007e24        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signalr.o)
+                0x10007e24                _getpid_r
+ .text.strlen   0x10007e2c       0x5c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+                0x10007e2c                strlen
+ .text._getpid  0x10007e88       0x10 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libnosys.a(getpid.o)
+                0x10007e88                _getpid
+ .text._kill    0x10007e98       0x10 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libnosys.a(kill.o)
+                0x10007e98                _kill
  *(.fini)
- .fini          0x10008880        0x4 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crti.o
-                0x10008880                _fini
- *fill*         0x10008884        0x4 
- .fini.__stub   0x10008888       0x90 linker stubs
+ .fini          0x10007ea8        0x4 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crti.o
+                0x10007ea8                _fini
+ *fill*         0x10007eac        0x4 
+ .fini.__stub   0x10007eb0       0x90 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2851,261 +2555,256 @@ LOAD c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10008918        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10008918                . = ALIGN (0x4)
+ .eh_frame      0x10007f40        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10007f40                . = ALIGN (0x4)
 
-.glue_7         0x10008918        0x0
- .glue_7        0x10008918        0x0 linker stubs
+.glue_7         0x10007f40        0x0
+ .glue_7        0x10007f40        0x0 linker stubs
 
-.glue_7t        0x10008918        0x0
- .glue_7t       0x10008918        0x0 linker stubs
+.glue_7t        0x10007f40        0x0
+ .glue_7t       0x10007f40        0x0 linker stubs
 
-.vfp11_veneer   0x10008918        0x0
- .vfp11_veneer  0x10008918        0x0 linker stubs
+.vfp11_veneer   0x10007f40        0x0
+ .vfp11_veneer  0x10007f40        0x0 linker stubs
 
-.v4_bx          0x10008918        0x0
- .v4_bx         0x10008918        0x0 linker stubs
+.v4_bx          0x10007f40        0x0
+ .v4_bx         0x10007f40        0x0 linker stubs
 
-.iplt           0x10008918        0x0
- .iplt          0x10008918        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10007f40        0x0
+ .iplt          0x10007f40        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10008918      0x55c
+.rodata         0x10007f40      0x554
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x10008918       0x4b CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj
- *fill*         0x10008963        0x1 
+                0x10007f40       0x55 CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj
+ *fill*         0x10007f95        0x3 
  .rodata.spin_lock_claim_unused.str1.4
-                0x10008964       0x1b CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x1000897f        0x1 
+                0x10007f98       0x1b CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x10007fb3        0x1 
  .rodata.user_irq_claim_unused.str1.4
-                0x10008980       0x1b CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000899b        0x1 
+                0x10007fb4       0x1b CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10007fcf        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x1000899c       0x22 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x100089be        0x2 
+                0x10007fd0       0x22 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10007ff2        0x2 
  .rodata.panic.str1.4
-                0x100089c0       0x12 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x100089d2        0x2 
+                0x10007ff4       0x12 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10008006        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x100089d4        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10008008        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x100089e0       0x15 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x100089f5        0x3 
+                0x10008014       0x15 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10008029        0x3 
  .rodata._vsnprintf
-                0x100089f8      0x19c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10008b94        0x4 
+                0x1000802c      0x19c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x10008b98       0x50 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100081c8       0x50 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x10008be8       0x40 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008218       0x40 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10008c28        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008258        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10008c34        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008264        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10008c40        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008270        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10008c4c        0x2 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10008c4e        0x2 
+                0x1000827c        0x2 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x1000827e        0x2 
  .rodata._resetd_driver
-                0x10008c50       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10008280       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x10008c68       0x13 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x10008c7b        0x1 
+                0x10008298       0x13 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x100082ab        0x1 
  .rodata.__bi_118.0
-                0x10008c7c        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100082ac        0xc CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x10008c88       0x2a CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x10008cb2        0x2 
+                0x100082b8       0x2a CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x100082e2        0x2 
  .rodata.usbd_desc_cfg
-                0x10008cb4       0x54 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x100082e4       0x54 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x10008d08       0x12 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x10008d1a        0x2 
+                0x10008338       0x12 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x1000834a        0x2 
  .rodata.usbd_desc_str
-                0x10008d1c       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x1000834c       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.dcd_rp2040_irq.str1.4
-                0x10008d34       0x14 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10008364       0x14 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata._hw_endpoint_buffer_control_update32.part.0.isra.0.str1.4
-                0x10008d48       0x1f CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10008d67        0x1 
+                0x10008378       0x1f CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10008397        0x1 
  .rodata.hw_endpoint_xfer_continue.str1.4
-                0x10008d68       0x29 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10008d91        0x3 
+                0x10008398       0x29 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x100083c1        0x3 
  .rodata.str1.4
-                0x10008d94        0x7 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10008d9b        0x1 
+                0x100083c4        0x7 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x100083cb        0x1 
  .rodata.tud_task
-                0x10008d9c       0x8c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100083cc       0x8c CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x10008e28       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10008458       0x18 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._ZTV9LoRaClass
-                0x10008e40       0x24 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                0x10008e40                _ZTV9LoRaClass
- .rodata.str1.4
-                0x10008e64        0xe ..\..\src\libLoRa_print.a(Print.cpp.obj)
-                                 0x12 (size before relaxing)
-                0x10008e74                . = ALIGN (0x4)
- *fill*         0x10008e72        0x2 
+                0x10008470       0x24 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10008470                _ZTV9LoRaClass
+                0x10008494                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10008e74                . = ALIGN (0x4)
+                0x10008494                . = ALIGN (0x4)
 
-.ARM.extab      0x10008e74       0xcc
+.ARM.extab      0x10008494       0x9c
  *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.text.startup.main
+                0x10008494        0xc CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj
  .ARM.extab.text._ZN5Print17availableForWriteEv
-                0x10008e74        0x0 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x100084a0        0x0 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.extab.text._ZN9LoRaClass9availableEv
-                0x10008e74        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
- .ARM.extab.text._ZN9LoRaClass4readEv
-                0x10008e80        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x100084a0        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.extab.text._ZN9LoRaClass5writeEPKhj
-                0x10008e8c        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
- .ARM.extab.text._ZN9LoRaClass4peekEv
-                0x10008e98        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x100084ac        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+ .ARM.extab.text._ZN9LoRaClass4readEv
+                0x100084b8        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.extab.text._ZN9LoRaClass5writeEh
-                0x10008ea4        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x100084c4        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+ .ARM.extab.text._ZN9LoRaClass4peekEv
+                0x100084d0        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.extab.text._ZN9LoRaClass5beginEl
-                0x10008eb0        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x100084dc        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.extab.text._ZN9LoRaClass11beginPacketEi
-                0x10008ebc        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x100084e8        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.extab.text._ZN9LoRaClass9endPacketEb
-                0x10008ec8        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
- .ARM.extab     0x10008ed4       0x3c ..\..\src\libLoRa_print.a(Print.cpp.obj)
+                0x100084f4        0xc ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.extab.text.unwind_phase2_forced
-                0x10008f10        0xc c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x10008500        0xc c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.extab.text.__gnu_unwind_pr_common
-                0x10008f1c        0xc c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x1000850c        0xc c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.extab.text._Unwind_VRS_Pop
-                0x10008f28        0xc c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x10008518        0xc c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.extab.text.__gnu_unwind_execute
-                0x10008f34        0xc c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
-                0x10008f40                __exidx_start = .
+                0x10008524        0xc c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
+                0x10008530                __exidx_start = .
 
-.ARM.exidx      0x10008f40      0x178
+.ARM.exidx      0x10008530       0xf0
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
  .ARM.exidx.text.startup.main
-                0x10008f40       0x10 CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj
+                0x10008530       0x10 CMakeFiles/LoRaSender.dir/LoRaSender.cpp.obj
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN5Print17availableForWriteEv
-                0x10008f50        0x0 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10008540        0x0 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN9LoRaClass5flushEv
-                0x10008f50        0x0 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10008540        0x0 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN9LoRaClass9availableEv
-                0x10008f50        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
- .ARM.exidx.text._ZN9LoRaClass4readEv
-                0x10008f58        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10008540        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.exidx.text._ZN9LoRaClass5writeEPKhj
-                0x10008f60        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
- .ARM.exidx.text._ZN9LoRaClass4peekEv
-                0x10008f68        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10008548        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+ .ARM.exidx.text._ZN9LoRaClass4readEv
+                0x10008550        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.exidx.text._ZN9LoRaClass5writeEh
-                0x10008f70        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10008558        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+ .ARM.exidx.text._ZN9LoRaClass4peekEv
+                0x10008560        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.exidx.text._ZN9LoRaClass5beginEl
-                0x10008f78        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10008568        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.exidx.text._ZN9LoRaClass11beginPacketEi
-                0x10008f80        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10008570        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.exidx.text._ZN9LoRaClass9endPacketEb
-                0x10008f88        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10008578        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.exidx.text._ZN9LoRaClass7setPinsEiii
-                0x10008f90        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+                0x10008580        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
+ .ARM.exidx.text._ZN9LoRaClass15setRfSwitchPinsEhh
+                0x10008588        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.exidx.text.startup._GLOBAL__sub_I__ZN9LoRaClassC2Ev
-                0x10008f98        0x0 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
-                                  0x8 (size before relaxing)
- .ARM.exidx     0x10008f98       0x98 ..\..\src\libLoRa_print.a(Print.cpp.obj)
-                                 0xd0 (size before relaxing)
+                0x10008590        0x8 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.exidx.text.selfrel_offset31
-                0x10009030        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x10008598        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.search_EIT_table
-                0x10009030        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x10008598        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__gnu_unwind_get_pr_addr
-                0x10009030        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x10008598        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.get_eit_entry
-                0x10009030        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x10008598        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text.restore_non_core_regs
-                0x10009038        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085a0        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text._Unwind_decode_typeinfo_ptr.constprop.0
-                0x10009040        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085a8        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text._Unwind_DebugHook
-                0x10009048        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085b0        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.unwind_phase2
-                0x10009048        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085b0        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text.unwind_phase2_forced
-                0x10009050        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085b8        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text.__gnu_Unwind_RaiseException
-                0x10009058        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085c0        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text.__gnu_Unwind_ForcedUnwind
-                0x10009060        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085c8        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text.__gnu_Unwind_Resume
-                0x10009068        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085d0        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text.__gnu_Unwind_Resume_or_Rethrow
-                0x10009070        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085d8        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text._Unwind_VRS_Get
-                0x10009078        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085e0        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text._Unwind_GetGR
-                0x10009080        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085e8        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._Unwind_VRS_Set
-                0x10009080        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085e8        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._Unwind_SetGR
-                0x10009080        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085e8        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__gnu_Unwind_Backtrace
-                0x10009080        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085e8        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text.__gnu_unwind_pr_common
-                0x10009088        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085f0        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text.__aeabi_unwind_cpp_pr0
-                0x10009090        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x100085f8        0x8 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.exidx.text.__aeabi_unwind_cpp_pr1
-                0x10009098        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x10008600        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__aeabi_unwind_cpp_pr2
-                0x10009098        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x10008600        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._Unwind_VRS_Pop
-                0x10009098       0x10 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x10008600       0x10 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.next_unwind_byte
-                0x100090a8        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
+                0x10008610        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__gnu_unwind_execute
-                0x100090a8       0x10 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
+                0x10008610       0x10 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
                                   0x8 (size before relaxing)
-                0x100090b8                __exidx_end = .
+                0x10008620                __exidx_end = .
 
-.rel.dyn        0x100090b8        0x0
- .rel.iplt      0x100090b8        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x100090b8                . = ALIGN (0x4)
-                0x100090b8                __binary_info_start = .
+.rel.dyn        0x10008620        0x0
+ .rel.iplt      0x10008620        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10008620                . = ALIGN (0x4)
+                0x10008620                __binary_info_start = .
 
-.binary_info    0x100090b8       0x20
+.binary_info    0x10008620       0x20
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x100090b8        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008620        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x100090bc        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008624        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x100090c0        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008628        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x100090c4        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000862c        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x100090c8        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008630        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x100090cc        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008634        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x100090d0        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008638        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr118
-                0x100090d4        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x100090d8                __binary_info_end = .
-                0x100090d8                . = ALIGN (0x4)
-                0x100090d8                __etext = .
+                0x1000863c        0x4 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10008640                __binary_info_end = .
+                0x10008640                . = ALIGN (0x4)
+                0x10008640                __etext = .
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -3114,7 +2813,7 @@ LOAD c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/
                 0x20000000       0xc0 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0     0x1784 load address 0x100090d8
+.data           0x200000c0     0x1784 load address 0x10008640
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -3314,33 +3013,33 @@ LOAD c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/
                 0x20001844                __data_end__ = .
 
 .tm_clone_table
-                0x20001844        0x0 load address 0x1000a85c
+                0x20001844        0x0 load address 0x10009dc4
  .tm_clone_table
                 0x20001844        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20001844        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20001844        0x0 load address 0x1000a85c
+.igot.plt       0x20001844        0x0 load address 0x10009dc4
  .igot.plt      0x20001844        0x0 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20001844        0x0 load address 0x1000a85c
+                0x20001844        0x0 load address 0x10009dc4
                 0x20001844                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x1000a85c
+.scratch_x      0x20040000        0x0 load address 0x10009dc4
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x1000a85c                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10009dc4                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x1000a85c
+.scratch_y      0x20041000        0x0 load address 0x10009dc4
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x1000a85c                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10009dc4                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20001848      0xdb8
                 0x20001848                . = ALIGN (0x4)
@@ -3451,8 +3150,8 @@ LOAD c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x1000a85c        0x0
-                0x1000a85c                __flash_binary_end = .
+.flash_end      0x10009dc4        0x0
+                0x10009dc4                __flash_binary_end = .
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -3533,7 +3232,7 @@ LOAD CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_co
 LOAD CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 LOAD CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj
 LOAD ..\..\src\libLoRa_pico_lib.a
-LOAD C:\Users\HENRIK~1.PED\AppData\Local\Temp\cc6H9C6E.o
+LOAD C:\Users\HENRIK~1.PED\AppData\Local\Temp\ccEBnOEI.o
 LOAD ..\..\src\libLoRa_print.a
 LOAD c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libm.a
@@ -3652,35 +3351,33 @@ LOAD linker stubs
  .ARM.attributes
                 0x000007ce       0x2c ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
  .ARM.attributes
-                0x000007fa       0x22 C:\Users\HENRIK~1.PED\AppData\Local\Temp\cc6H9C6E.o
+                0x000007fa       0x22 C:\Users\HENRIK~1.PED\AppData\Local\Temp\ccEBnOEI.o
  .ARM.attributes
-                0x0000081c       0x2c ..\..\src\libLoRa_print.a(Print.cpp.obj)
+                0x0000081c       0x1e c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000848       0x1e c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x0000083a       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.attributes
-                0x00000866       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x00000866       0x1e c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(libunwind.o)
  .ARM.attributes
-                0x00000892       0x1e c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(libunwind.o)
+                0x00000884       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
  .ARM.attributes
-                0x000008b0       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
+                0x000008b0       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-abort.o)
  .ARM.attributes
-                0x000008dc       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-abort.o)
+                0x000008dc       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000908       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-impure.o)
+                0x00000908       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signal.o)
  .ARM.attributes
-                0x00000934       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signal.o)
+                0x00000934       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signalr.o)
  .ARM.attributes
-                0x00000960       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-signalr.o)
+                0x00000960       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
  .ARM.attributes
-                0x0000098c       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+                0x0000098c       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-reent.o)
  .ARM.attributes
-                0x000009b8       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-reent.o)
+                0x000009b8       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libnosys.a(getpid.o)
  .ARM.attributes
-                0x000009e4       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libnosys.a(getpid.o)
+                0x000009e4       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libnosys.a(kill.o)
  .ARM.attributes
-                0x00000a10       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libnosys.a(kill.o)
- .ARM.attributes
-                0x00000a3c       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtend.o
+                0x00000a10       0x2c c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtend.o
 
 .comment        0x00000000       0x57
  .comment       0x00000000       0x57 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
@@ -3722,7 +3419,6 @@ LOAD linker stubs
  .comment       0x00000057       0x58 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .comment       0x00000057       0x58 CMakeFiles/LoRaSender.dir/C_/Users/henrik.pedersen/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .comment       0x00000057       0x58 ..\..\src\libLoRa_pico_lib.a(LoRa-RP2040.cpp.obj)
- .comment       0x00000057       0x58 ..\..\src\libLoRa_print.a(Print.cpp.obj)
  .comment       0x00000057       0x58 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
  .comment       0x00000057       0x58 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
  .comment       0x00000057       0x58 c:/progra~2/armgnu~1/112202~1.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libc.a(lib_a-abort.o)

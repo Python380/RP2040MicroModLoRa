@@ -6,16 +6,21 @@ int main() {
 
 	stdio_init_all();
 
-   while (!stdio_usb_connected()) {}
+	while (!stdio_usb_connected()) {}
 
-   LoRa.setPins(21, 17, 6);
+	gpio_init(10);
+	gpio_set_dir(10, GPIO_OUT);
+	gpio_put(10, 1);
 
-	printf("Starting LoRa\n");
+	LoRa.setPins(21, 17, 6);
+	LoRa.setRfSwitchPins(16, 13);
 
 	if (!LoRa.begin(915E6)) {
 		printf("Starting LoRa failed!\n");
 		while (1);
 	}
+
+	printf("LoRa Started\n");
 	uint8_t counter = 0;
 
 	while (1) {
@@ -23,9 +28,10 @@ int main() {
 		printf("%d \n",counter);
 		// send packet
 		LoRa.beginPacket();
-		LoRa.print("hello ");
-		LoRa.print(counter);
+		LoRa.write((uint8_t *)"hello ", 6);
+		LoRa.write(&counter, 1);
 		LoRa.endPacket();
+		printf("end/send\n");
 
 		counter++;
 		sleep_ms(5000);
