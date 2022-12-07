@@ -5,6 +5,8 @@ LoRa communication library for Raspberry Pi RP2040 Microcontroller.
 
 This library is written for RP2040 C++ SDK.
 
+The main changes from the repository credited are a fixed available function (for our setup, may not work for you), and a TX/RX enable setup like Arduino's RadioLib. These changes were required for our modules (RP2040 MicroMod with the MicroMod LoRa 1W function).
+
 ## Supported Hardware
  * RP2040 boards
     * Raspberry Pi Pico
