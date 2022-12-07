@@ -3,7 +3,6 @@
 #include "LoRa-RP2040.h"
 
 int main() {
-
 	stdio_init_all();
 
 	while (!stdio_usb_connected()) {}
@@ -26,16 +25,15 @@ int main() {
 	while (1) {
 		printf("Sending packet: ");
 		printf("%d \n",counter);
+
 		// send packet
 		LoRa.beginPacket();
 		LoRa.write((uint8_t *)"hello ", 6);
 		LoRa.write(&counter, 1);
 		LoRa.endPacket();
-		printf("end/send\n");
 
 		counter++;
 		sleep_ms(1000);
-		
   }
   return 0;
 }
