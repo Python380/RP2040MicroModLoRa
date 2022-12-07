@@ -218,6 +218,8 @@ bool LoRaClass::isTransmitting()
 
 int LoRaClass::parsePacket(int size)
 {
+  setRfSwitchState(1, 0);
+  sleep_ms(10);
   int packetLength = 0;
   
   int irqFlags = readRegister(REG_IRQ_FLAGS);
@@ -324,7 +326,8 @@ size_t LoRaClass::write(const uint8_t *buffer, size_t size)
 int LoRaClass::available()
 {
   setRfSwitchState(1, 0);
-  return (readRegister(REG_RX_NB_BYTES) - _packetIndex);
+  sleep_ms(10);
+  return (readRegister(REG_RX_NB_BYTES) - _packetIndex + 1);
 }
 
 int LoRaClass::read()

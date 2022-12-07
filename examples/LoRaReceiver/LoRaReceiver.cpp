@@ -33,20 +33,20 @@ int main()
 
     while (1)
     {
-        if (LoRa.available())
+        if (LoRa.parsePacket())
         {
             // received a packet
-            printf("Received packet \n'");
+            printf("Received packet \n");
 
             // read packet
             while (LoRa.available())
             {
-                printf((char *)LoRa.read());
+                printf("%02x", (char *)LoRa.read());
             }
 
             // print RSSI of packet
-            printf("' with RSSI \n");
-            printf((char *)LoRa.packetRssi(), "\n");
+            printf(" with RSSI ");
+            printf("%d\n", (int8_t *)LoRa.packetRssi());
         }
     }
 
